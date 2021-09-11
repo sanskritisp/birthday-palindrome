@@ -32,10 +32,10 @@ button.addEventListener("click", clickHandler);
          if (!isPalindrome) {
             const [counter, nextDate] = getNextPalindrome(date);
             
-              output.innerText = "OOPS!! YOUR BIRTHDATE IS NOT A PALINDROME .The nearest palindrome date is " + nextDate.day + "-" + nextDate.month +"-"+ nextDate.year + " , you missed by " + counter + " days.";
+              output.innerText = "OOPS!! YOUR BIRTHDATE IS NOT A PALINDROME 🙁.The nearest palindrome date is " + nextDate.day + "-" + nextDate.month +"-"+ nextDate.year + " , you missed by " + counter + " days.";
             
           } else {
-            output.innerText = 'YEAH!! YOUR BIRTHDATE IS A PALINDROME!';
+            output.innerText = 'YEAH!! YOUR BIRTHDATE IS A PALINDROME!🎉';
           }
         }
       }
