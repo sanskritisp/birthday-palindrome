@@ -1,0 +1,1 @@
+This will check whether your birthdate is palindrome or not. If it is not , it will return the nearest palindrome date with the number of days you get missed.
